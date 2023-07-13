@@ -318,3 +318,12 @@ a.bdr:hover {
   font-size: 25px;
   margin: 100px;
 }
+
+.gamenewimg {
+  border: solid;
+  border-color: white;
+  width: 250px;
+  height: 150px;
+  border-radius: 30px;
+  margin: 50px;
+}
