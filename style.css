@@ -208,17 +208,112 @@ a.bdr:hover {
 }
 
 .divgameinfo {
+  width: 426px;
+  margin-left: 75px;
+  margin-top: 65px;
+  margin-bottom: 50px;
+  border: none;
+  margin-bottom: 50px;
+  display: list-item;
+  align-self: flex-start;
+}
+
+.divgameinfo img{ 
+  border: solid;
+  border-color: white;
+  border-width: 5px;
+  border-radius: 10px;
+}
+
+.allgamepage {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  overflow-x: scroll;
+}
+
+.brode {
   border: solid;
   border-color: white;
   border-radius: 5px;
   margin-top: 65px;
 }
 
-.divgameinfo img{
-  height: 99.5%;
+.dowload{
+  border: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: list-item;
+  align-self: flex-start;
+  margin-top: 65px;
+}
+
+.borderdown {
+  border: solid;
+  border-color: white;
+  border-width: 5px;
+  border-radius: 10px;
+}
+
+.brode{
+  border: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: list-item;
+  align-self: flex-start;
+  border: solid;
+  border-color: white;
+  border-radius: 5px;
+  margin-top: 65px;
+  margin-right: 50px;
+}
+
+.gameicod {
+  border: solid;
+  border-color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.divgameotherg {
+  border: none;
+  margin-bottom: 50px;
+  display: list-item;
+  align-self: flex-start;
+}
+
+.gameimgin {
+  border: solid;
+  border-color: white;
+  width: 300px;
+  height: 175px;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+.pgame {
+  font-size: 60px;
+}
+
+.gameimginc {
+  border: solid;
+  border-color: white;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.pgameT {
+  font-size: 60px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+
+.gameicod2 {
+  visibility: hidden;
+}
+
+.descr {
+  font-size: 25px;
+  margin: 100px;
 }
