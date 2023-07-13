@@ -13,6 +13,7 @@ body {
   -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
+
 .fondfog {
   background-color: rgb(0, 0, 0);
   background-image: url("Image/fond-foggo.webp");
