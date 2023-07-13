@@ -1,11 +1,8 @@
-@font-face {
-  font-family:'agda';
-  src: url('/font/Agdasima-Regular.ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
 
 body {
   background-color: rgb(0, 0, 0);
-  font-family: agda;
+  font-family: 'Agdasima', sans-serif;
   user-select: none; /* supported by Chrome and Opera */
   -webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */
