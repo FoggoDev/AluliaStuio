@@ -1,0 +1,189 @@
+@font-face {
+  font-family:'agda';
+  src: url('/font/Agdasima-Regular.ttf');
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.fondfog {
+  background-color: rgb(0, 0, 0);
+  background-image: url("Image/fond-foggo.webp");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a {
+  padding: 0;
+border: none;
+background: none;
+text-decoration: none;
+resize: none;
+}
+
+.aluliabtn {
+  height: 50px;
+  padding: 5px 10px;
+}
+
+p {
+  color: aliceblue;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 20px;
+}
+
+.barreup {
+  z-index: 9;
+  position: fixed;
+  top: 0;
+  display: flex;
+  font-size: 20px;
+  background-color: rgb(32, 32, 32);
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  font-family: agda;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.cont {
+  margin-bottom: 2rem;
+  color: white;
+  font-size: 80px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 24rem;
+  gap: 1rem;
+  display: flex;
+}
+
+input,
+select,
+textarea {
+  padding: 1.4rem;
+  background: transparent;
+  border: 1px solid rgb(80, 80, 80);
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+textarea {
+  height: 10rem;
+  color: rgb(255, 255, 255);
+  resize: none;
+  border-radius: 10px;
+}
+
+.sendbtn {
+  padding: 1.4rem;
+  cursor: pointer;
+  background: #3d3d3d;
+  color: white;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+select {
+  color: #000000;
+}
+
+.contrainer {
+  position: absolute;
+    top: 20%;
+    left: 42%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 1000px;
+    height: 500px;
+}
+
+input {
+  color: rgb(255, 255, 255)
+}
+
+a.bdr:hover {
+  border: solid;
+  border-bottom: -10px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: white;
+  border-radius: 5px;
+}
+
+.desu{
+  color: #dbdbdb;
+  opacity: 50%;
+}
+
+.gameimg {
+  border: solid;
+  border-color: white;
+  width: 500px;
+  height: 275px;
+  border-radius: 30px;
+  margin: 50px;
+}
+
+.grpgame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.gametext {
+  font-size: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 75px;
+  color: white;
+}
+.videonew {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.textnew {
+  font-size: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 75px;
+  color: white;
+}
+
+.exgame {
+  font-size: 50px;
+  border: solid;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-right: none;
+  border-left: none;
+}
+
+.videx {
+  margin-right: 100px;
+}
