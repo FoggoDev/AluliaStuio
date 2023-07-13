@@ -5,6 +5,12 @@
 
 body {
   background-color: rgb(0, 0, 0);
+  font-family: agda;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
 .fondfog {
@@ -22,12 +28,6 @@ body {
   padding: 0;
   outline: 0;
   border: 0;
-  font-family: agda;
-  user-select: none; /* supported by Chrome and Opera */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
 a {
@@ -186,4 +186,39 @@ a.bdr:hover {
 
 .videx {
   margin-right: 100px;
+}
+
+.info {
+  color: white;
+  font-size: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+  color: white;
+}
+
+.bordban {
+  border: solid;
+  border-color: white;
+  border-radius: 5px;
+  margin-top: 65px;
+  width: 99.5%;
+}
+
+.divgameinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow-x: scroll;
+  border: solid;
+  border-color: white;
+  border-radius: 5px;
+  margin-top: 65px;
+}
+
+.divgameinfo img{
+  height: 99.5%;
 }
