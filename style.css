@@ -324,3 +324,16 @@ a.bdr:hover {
   border-radius: 30px;
   margin: 50px;
 }
+
+.oskatext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  border: solid;
+  border-color: white;
+  border-radius: 30px;
+  margin: 50px;
+  margin-top: 150px;
+}
