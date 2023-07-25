@@ -337,3 +337,8 @@ a.bdr:hover {
   margin: 50px;
   margin-top: 150px;
 }
+
+.righttext {
+  width:72%;
+  text-align:right;
+}
